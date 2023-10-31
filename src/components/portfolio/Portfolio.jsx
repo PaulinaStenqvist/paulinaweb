@@ -11,7 +11,7 @@ const items = [
     id: 1,
     title: "Kanban Board",
     img: img1,
-    desc: "https://shimmering-centaur-7659ab.netlify.app",
+    desc: "En Kanban Board",
     link: "https://shimmering-centaur-7659ab.netlify.app"
   },
   {
@@ -25,7 +25,7 @@ const items = [
     id: 3,
     title: "Paint",
     img: img3,
-    desc: "https://grand-axolotl-3aafc4.netlify.app",
+    desc: "Ritprogram",
     link: "https://grand-axolotl-3aafc4.netlify.app"
   },
   
