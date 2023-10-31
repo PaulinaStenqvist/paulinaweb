@@ -1,3 +1,4 @@
+import React from 'react';
 import { useRef } from "react";
 import "./services.scss";
 import { motion, useInView } from "framer-motion";
@@ -36,23 +37,24 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          I focus on helping your brand grow
-          <br /> and move forward
+        I love creating new websites and 
+          <br /> developing existing ones
+          <br /> - Paulina
         </p>
         <hr />
       </motion.div>
-      <motion.div className="titleContainer" variants={variants}>
+      {/* <motion.div className="titleContainer" variants={variants}>
         <div className="title">
           <img src="/people.webp" alt="" />
           <h1>
-            <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
+            <motion.b whileHover={{color:"#5AC7CE"}}>Unique</motion.b> Ideas
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
+            <motion.b whileHover={{color:"#5AC7CE"}}>For Your</motion.b> Business.
           </h1>
-          <button>WHAT WE DO?</button>
+          <button>WHAT I DO?</button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -108,7 +110,7 @@ const Services = () => {
           </p>
           <button>Go</button>
         </motion.div>
-      </motion.div>
+      </motion.div> */}
     </motion.div>
   );
 };

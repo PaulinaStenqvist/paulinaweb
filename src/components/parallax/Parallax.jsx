@@ -1,3 +1,4 @@
+import React from 'react';
 import { useRef } from "react";
 import "./parallax.scss";
 import { motion, useScroll, useTransform } from "framer-motion";
@@ -25,7 +26,7 @@ const Parallax = ({ type }) => {
       }}
     >
       <motion.h1 style={{ y: yText }}>
-        {type === "services" ? "What We Do?" : "What We Did?"}
+        {type === "services" ? "What I Do?" : "What I Did?"}
       </motion.h1>
       <motion.div className="mountains"></motion.div>
       <motion.div

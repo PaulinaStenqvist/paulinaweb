@@ -1,3 +1,4 @@
+import React from 'react';
 import Sidebar from "../sidebar/Sidebar";
 import "./navbar.scss";
 import { motion } from "framer-motion";
@@ -13,9 +14,9 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          Paulina Web
+          Paulina Stenqvist
         </motion.span>
-        <div className="social">
+        {/* <div className="social">
           <a href="#">
             <img src="/facebook.png" alt="" />
           </a>
@@ -28,7 +29,7 @@ const Navbar = () => {
           <a href="#">
             <img src="/dribbble.png" alt="" />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
