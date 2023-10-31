@@ -18,7 +18,7 @@ const items = [
     id: 2,
     title: "Blog",
     img: img2,
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: "Semesterdagbok",
     link:""
   },
   {

@@ -53,7 +53,7 @@ const Hero = () => {
           <motion.h1 variants={textVariants}>
             Web designer and Web developer
           </motion.h1>
-          <motion.div variants={textVariants} className="buttons">
+          {/* <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>
               See the Latest Works
             </motion.button>
@@ -64,7 +64,7 @@ const Hero = () => {
             animate="scrollButton"
             src="/scroll.png"
             alt=""
-          />
+          /> */}
         </motion.div>
       </div>
       <motion.div
