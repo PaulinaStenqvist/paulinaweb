@@ -12,18 +12,21 @@ const items = [
     title: "Kanban Board",
     img: img1,
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    link: "https://shimmering-centaur-7659ab.netlify.app"
   },
   {
     id: 2,
     title: "Blog",
     img: img2,
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    link:""
   },
   {
     id: 3,
     title: "Paint",
     img: img3,
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    link: "https://grand-axolotl-3aafc4.netlify.app"
   },
   
 ];
@@ -47,6 +50,7 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{y}}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
+            <a href={item.link}></a>
             <button>See Demo</button>
           </motion.div>
         </div>
