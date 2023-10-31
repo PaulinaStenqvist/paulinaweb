@@ -51,8 +51,9 @@ const Single = ({ item }) => {
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
             
-            <a href={item.link}></a>
+            <a href={item.link}>
             <button>See Demo</button>
+            </a>
           </motion.div>
         </div>
       </div>
