@@ -39,7 +39,6 @@ const Single = ({ item }) => {
   });
 
   const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
-  console.log(item);
 
   return (
     <section >
