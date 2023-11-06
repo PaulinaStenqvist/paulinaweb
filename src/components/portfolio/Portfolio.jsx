@@ -19,7 +19,7 @@ const items = [
     title: "Blog",
     img: img2,
     desc: "Semesterdagbok",
-    link:"www.semesterdagboken.com"
+    link:"http://semesterdagboken.com"
   },
   {
     id: 3,
