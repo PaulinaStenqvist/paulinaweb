@@ -19,7 +19,7 @@ const items = [
     title: "Blog",
     img: img2,
     desc: "Semesterdagbok",
-    link:"http://semesterdagboken.com"
+    link:"https://fantastic-snickerdoodle-858891.netlify.app"
   },
   {
     id: 3,
