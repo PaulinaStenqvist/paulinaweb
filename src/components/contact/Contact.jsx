@@ -112,7 +112,7 @@ const Contact = () => {
           <textarea rows={8} placeholder="Message" name="message"/>
           <button>Submit</button>
           {error && "Error"}
-          {success && "Success"}
+          {success && "Success"} 
         </motion.form>
       </div>
     </motion.div>
