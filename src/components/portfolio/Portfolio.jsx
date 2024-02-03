@@ -23,10 +23,10 @@ const items = [
   },
   {
     id: 3,
-    title: "Paint",
+    title: "Wedding Planer",
     img: img3,
-    desc: "Ritprogram",
-    link: "https://grand-axolotl-3aafc4.netlify.app"
+    desc: "Website fo a Wedding Planer Company",
+    link: "https://marvelous-dolphin-c08a2d.netlify.app"
   },
   
 ];
