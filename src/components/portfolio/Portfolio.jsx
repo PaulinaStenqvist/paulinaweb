@@ -24,7 +24,7 @@ const items = [
   {
     id: 3,
     title: "Wedding Planer",
-    img: img3,
+    img: img4,
     desc: "Website fo a Wedding Planer Company",
     link: "https://marvelous-dolphin-c08a2d.netlify.app"
   },
