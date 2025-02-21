@@ -4,6 +4,7 @@ import "./portfolio.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import img1 from "../../assets/img1.png";
 import img2 from "../../assets/img2.png";
+import img3 from "../../assets/img3.png";
 import img4 from "../../assets/img4.png";
 
 const items = [
@@ -16,13 +17,20 @@ const items = [
   },
   {
     id: 2,
+    title: "Sportsida",
+    img: img3,
+    desc: "Sportsida",
+    link:"https://dynamic-vacherin-1c0869.netlify.app"
+  },
+  {
+    id: 3,
     title: "Blog",
-    img: img2,
+    img: img3,
     desc: "Semesterdagbok",
     link:"https://fantastic-snickerdoodle-858891.netlify.app"
   },
   {
-    id: 3,
+    id: 4,
     title: "Wedding Planer",
     img: img4,
     desc: "Website for a Wedding Planer Company",
